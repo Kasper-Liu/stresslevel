@@ -17,7 +17,7 @@ const select10 = parseInt(document.getElementById("10").value);
 
 submit.addEventListener("click", () => {
   location.assign(
-    `http://127.0.0.1:5500/result.html?score=${
+    `/stresslevel/result.html?score=${
       select1 +
       select2 +
       select3 +
